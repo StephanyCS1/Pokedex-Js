@@ -1,0 +1,56 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pokedex-container{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color:#DD082F;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 5% 5%;
+    -webkit-border-radius: 5% 5%;
+    -moz-border-radius: 5% 5%;
+    -ms-border-radius: 5% 5%;
+    -o-border-radius: 5% 5%;
+}
+
+.pokemon-name{
+    background-color: #FFCC02;
+    font-weight: bolder;
+    height: 40px;
+    font-size: 15px;
+}
+
+.find-btn{
+    display: flexbox;
+    background-color: rgb(16, 15, 15);
+    border-radius: 12px;
+    color: azure;
+    font-weight: bolder;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+}
+button:active {
+    background-color: #6a828d;
+}
+
+button:focus {
+    outline: none;
+}
+#contein-img{
+    margin-top: 30px;
+    max-width: 350px;
+}
+#pokemon-name{
+    border-radius:8px ;
+}
+
+h3{
+    color: aliceblue;
+}
+
