@@ -10,6 +10,8 @@ const pokedex =() =>{
     .then((resp) =>{
         if(resp.status != "200"){
             imgPok('../img/error.gif')
+            ability();
+            namePoke();
         }else{
             return resp.json();
         }
