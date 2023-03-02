@@ -1,6 +1,6 @@
-# Pokedex-Js-Launch-X
+# Pokedex-Js
 
-Pokedex programada con HTML, CSS, JS
+## Pokedex programada con HTML, CSS, JS
 
 usando la https://pokeapi.co/ para las consultas de los pokemons
 
